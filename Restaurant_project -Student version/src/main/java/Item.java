@@ -17,4 +17,9 @@ public class Item {
                 + "\n"
                 ;
     }
+
+    // Added a getter for price attribute
+    public int getPrice() {
+        return price;
+    }
 }
